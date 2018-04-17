@@ -154,7 +154,7 @@ public class ProjetoParte1 {
                     break;
                 // Fim da opção de voltar ao MENU //
                 case 5:
-
+                //Opção do MENU - Números Primos //
                     // declarando as variáveis //
                     int soma = 0;
 
@@ -194,7 +194,7 @@ public class ProjetoParte1 {
                     break;
                 // Fim da opção voltar ao Menu //
                 case 6:
-
+                //Opção do MENU - Mudança de Base //
                     System.out.println(" Digite [1] para informar um número binário e [2] para informar um número decimal: ");
                     int opcao1 = sc.nextInt(); // Recebendo opção //
 
@@ -251,8 +251,9 @@ public class ProjetoParte1 {
                         }
                     }
                     break;
-                // Fim da opção de voltar ao Menu //       
-
+                // Fim da opção de voltar ao Menu //  
+                    
+                //Opção do MENU - Sair //
             }
             if (opcoes > 7) {
                 // enquanto opcao for diferente de 7  pedirá para digitar outra opção //
